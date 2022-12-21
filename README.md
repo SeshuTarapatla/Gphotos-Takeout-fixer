@@ -19,4 +19,6 @@ This section tries to provide some knowledge with the terms involved in this pro
 Metadata or in other words EXIF data is a series of tags with certain values/data that is present the file along with the media. This includes a long list of tags/properties which include: Date taken, Location coordinates, Device used etc.  
   
 2. **Does every file has metadata?**  
-While most of the modern day devices embed certain amount of metadata to every image or video captured - but that doesn't mean media files can't exist without metadata. We can add, edit or remove metadata tags. Example:
+While most of the modern day devices embed certain amount of metadata to every image or video captured - but that doesn't mean media files can't exist without metadata. We can add, edit or remove metadata tags. Example: If a photo doesn't have any location data we can add it. If it has we can change or remove it completely.  
+  
+<ins>Note</ins>: Don't confuse EXIF metadata of media with File properties. EXIF can be edited or removed. But file property tags like "File Creation Date", "File Modify Date" can only be edited but not removed.
